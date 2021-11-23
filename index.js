@@ -3,10 +3,8 @@
   console.log(NAV);
   function navHandler(event) {
     if (window.pageYOffset >= 89) {
-      console.log('over');
       NAV.classList.add('over');
     } else {
-      console.log('under');
       NAV.classList.remove('over');
     }
   }
