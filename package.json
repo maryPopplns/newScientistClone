@@ -1,0 +1,20 @@
+{
+  "name": "newscientistclone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "add": "git add . && git commit && git push origin $(git rev-parse --abbrev-ref HEAD)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maryPopplns/newScientistClone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maryPopplns/newScientistClone/issues"
+  },
+  "homepage": "https://github.com/maryPopplns/newScientistClone#readme"
+}
