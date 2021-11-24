@@ -144,7 +144,7 @@ article {
   flex-direction: column;
   grid-row: 1 / -1;
   grid-column: 1 / 17;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .main-article > h2 {
@@ -323,5 +323,33 @@ p.sign-up {
 aside {
   grid-row: 1 / -1;
   grid-column: 17 / -1;
+}
+
+aside > section {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 33px repeat(5, 100px);
+  position: sticky;
+  top: 75px;
+  height: 540px;
+  width: 100%;
   border: 1px solid black;
+}
+
+aside > section > div:nth-child(-n + 4) {
+  background: gray;
+  /* grid-column: span 4; */
+}
+
+aside > section > div:nth-child(n + 5) {
+  background: gray;
+  grid-column: span 4;
+}
+
+footer {
+  margin-top: 5em;
+  background: rgb(210, 210, 210);
+  height: 500px;
+  width: 100vw;
 }
