@@ -351,9 +351,6 @@ aside > section {
   grid-column: span 4;
 }
 
-/* .aside-trending {
-} */
-
 .trending-tab {
   display: flex;
   align-items: center;
